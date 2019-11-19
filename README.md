@@ -2,7 +2,8 @@
 
 For the course, we will create a knowledge intensive system concerning book recommendation system. 
 
-FOR NOW: The recommendation system will ask the user basic questions about their backgroup (age, education level, etc.) and come up with 5 to 10 book the user has to rate based 1-5 scale. The system then will recommend 5 more books to read based on the users answers.
+*FOR NOW*: The recommendation system will ask the user basic questions about their backgroup (age, education level, etc.) and come up with 5 to 10 book the user has to rate based 1-5 scale. The system then will recommend 5 more books to read based on the users answers.
+
 ---
 
 ## IDEAS/QUESTIONS:
@@ -13,7 +14,7 @@ FOR NOW: The recommendation system will ask the user basic questions about their
 ---
 
 ## DATA: 
-  - books_final1.csv
+  - books_final1.csv - this file is the final data we use
   - ratings.csv
   - explicit_ratings.csv
   
