@@ -14,28 +14,28 @@ For the course, we will create a knowledge intensive system concerning book reco
 ## Task Knowledge:
 
 1. Classification task:
-    -- 9 classes made from education level and age 
+    - 9 classes made from education level and age 
     
 2. Assignment Task:
-    -- subject -> user
-    -- resource -> books
-    -- subject-group -> other users and their ratings
-    -- acclocation -> ratings
+    - subject -> user
+    - resource -> books
+    - subject-group -> other users and their ratings
+    - acclocation -> ratings
   
 ---
 ## Classes we recognize
 
-| class name|age|education-level| 
+| class name|age|education-level| genre|
 |-----------------|---------|---------|
-| class1 | 0-12 | primary  |
-| class2 | 12 - 18 | primary |
-| class3 | 12 - 18 | high-school |
-| class4 | 18 - 25 | high-school |
-| class5 | 18 - 25 | university |
-| class6 | 25 - 45 | high-school |
-| class7 | 25 - 45 | university |
-| class8 | 45+ | high-school |
-| class9 | 45+ | university |
+| class1 | 0 - 12 | primary  ||
+| class2 | 12 - 18 | primary ||
+| class3 | 12 - 18 | high-school ||
+| class4 | 18 - 25 | high-school ||
+| class5 | 18 - 25 | university ||
+| class6 | 25 - 45 | high-school ||
+| class7 | 25 - 45 | university ||
+| class8 | 45+ | high-school ||
+| class9 | 45+ | university ||
 
 We do not recognize other classes for the users.
 
