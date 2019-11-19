@@ -25,17 +25,17 @@ For the course, we will create a knowledge intensive system concerning book reco
 ---
 ## Classes we recognize
 
-| class name|age|education-level| genre|
-|-----------------|---------|---------|
-| class1 | 0 - 12 | primary  ||
-| class2 | 12 - 18 | primary ||
-| class3 | 12 - 18 | high-school ||
-| class4 | 18 - 25 | high-school ||
-| class5 | 18 - 25 | university ||
-| class6 | 25 - 45 | high-school ||
-| class7 | 25 - 45 | university ||
-| class8 | 45+ | high-school ||
-| class9 | 45+ | university ||
+| class name|age|education-level|
+|-----------------|---------|
+| class1 | 0 - 12 | primary  |
+| class2 | 12 - 18 | primary |
+| class3 | 12 - 18 | high-school |
+| class4 | 18 - 25 | high-school |
+| class5 | 18 - 25 | university |
+| class6 | 25 - 45 | high-school |
+| class7 | 25 - 45 | university |
+| class8 | 45+ | high-school |
+| class9 | 45+ | university |
 
 We do not recognize other classes for the users.
 
