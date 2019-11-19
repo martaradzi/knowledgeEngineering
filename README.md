@@ -26,7 +26,7 @@ For the course, we will create a knowledge intensive system concerning book reco
 ## Classes we recognize
 
 | class name|age|education-level|
-|-----------------|---------|---------|---------|
+|-----------------|---------|---------|
 | class1 | 0 - 12 | primary  |
 | class2 | 12 - 18 | primary |
 | class3 | 12 - 18 | high-school |
