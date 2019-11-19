@@ -14,7 +14,7 @@ For the course, we will create a knowledge intensive system concerning book reco
 ---
 
 ## DATA: 
-  - books_final1.csv - this file is the final data we use
+  - books_final1.csv 
   - ratings.csv
-  - explicit_ratings.csv
+  - explicit_ratings.csv - this file is the final data we use
   
