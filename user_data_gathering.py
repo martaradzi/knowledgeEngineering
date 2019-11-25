@@ -43,7 +43,7 @@ def second_questions(path):
     # RETURNS: PANDAS DF
 
     # initialize a dataframe for storing the results
-    user_ratings = pd.DataFrame(columns=('book_id', 'original_title', 'user_rating'))
+    user_ratings = pd.DataFrame(columns=('book_id', 'title', 'user_rating'))
 
     # read in the correct csv file
     books_to_rate = pd.read_csv(path)
@@ -51,7 +51,7 @@ def second_questions(path):
     # loop over the books in a premade dataset for a class
     for i in range(0, len(books_to_rate)):
         answer = questionary.select(
-                "\n\n Rate the book " + books_to_rate['original_title'].iloc[i] + "\n\n",
+                "\n\n Rate the book " + books_to_rate['title'].iloc[i] + "\n\n",
                 choices=[
                     Separator(),
                     '1',
@@ -63,7 +63,7 @@ def second_questions(path):
                     Separator()
                 ]).ask()
         # add the results to a dataframe
-        user_ratings.loc[i] = [books_to_rate['book_id'].iloc[i], books_to_rate['original_title'].iloc[i], answer]
+        user_ratings.loc[i] = [books_to_rate['book_id'].iloc[i], books_to_rate['title'].iloc[i], answer]
     
     return user_ratings
 
