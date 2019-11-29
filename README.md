@@ -1,29 +1,46 @@
-# Knowledge Engineering Course Repository for Group 20
+# System Repository for  [Knowledge Engineering](https://studiegids.vu.nl/en/Master/2018-2019/computer-science/X_405099) assignment for Group 20
 
 For the course, we will create a knowledge intensive system concerning book recommendation system. 
 
-*FOR NOW*: The recommendation system will ask the user basic questions about their backgroup (age, education level, etc.) and come up with 5 to 10 book the user has to rate based 1-5 scale. The system then will recommend 5 more books to read based on the users answers.
+The system works in the following way:
 
-1. User imputs the info about themselvs - age and education level
-2. User is classified into a certain "user_group class"
-3. Based on the user_group class, a number of books is displayed for the user to rate
-4. Based on the user ratings and other user rating we sing the most similar "other user" and recommend books based on that
+1. The system asks the user about their age group and their education level
+2. The system then asks the user to rate 10 books personalized based on the previous answer (not read oprion avaiable)
+3. The system then displays 5 - 10 recommended books for the user.
 
+# Running the program
 
----
+To run this program you need to run Python 3.6.
+
+The program works using libraries listed in ```requirements.txt``` file. To run the program correcty run the following code before running the program.
+
+```python
+pip install -r requirements.txt
+```
+
+To run the program use the command:
+
+```python
+python user_data_gathering.py
+```
+
+# Information about the system
+
+The system is implemented using [commonKADS](https://commonkads.org/ "CommonKADS.org Main Page") methodology for knowledge based systems. A full report can be found in ```report.pdf```. The most important parts are shown below:
+
 ## Task Knowledge:
 
-1. Classification task:
-    - 9 classes made from education level and age 
+1. Classification tasks:
+    - classify to one of the 9 classes made from education level and age 
+    - classify to most similar external user based on your ratings of books
     
 2. Assignment Task:
-    - subject -> user
-    - resource -> books
-    - subject-group -> other users and their ratings
-    - acclocation -> ratings
+    - from the most similar user assign the best rated books which you did not read yet.
   
----
-## Classes we recognize
+
+## User classes we recognize
+
+**First classification task**
 
 | class name|age|education-level|
 |-----------------|---------|---------|
@@ -37,12 +54,20 @@ For the course, we will create a knowledge intensive system concerning book reco
 | class8 | 45+ | high-school |
 | class9 | 45+ | university |
 
-We do not recognize other classes for the users.
+We do not recognize other classes for the users as we think the classes would be edge cases and not used often.
+
+**Second classification task**
+
+The external user dataset consists of 60 000 users with at least 10 books reviewed. The users similarity to external users is classified using cosine similarity matrix.
 
 ---
 
 ## DATA: 
-  - books_final1.csv 
-  - ratings.csv
-  - explicit_ratings.csv - this file is the final data we use
+
+The following data is used by the system:
+  - ```.\data\books_to_display\``` - contains .csv files with the expert's knowledge and is used to displayed personalized books for the user to rate
+  - ```.\data\user_data\user_ratings.csv``` - created from the user rating, contains the books title, unique book ID, and the user's rating of te book title
+  - ```.\data\ratings.csv``` - external user dataset obtained from [Goodreads](https://www.goodreads.com/ " Goodreads") containg a unique external user ID, unique book ID and the external user's rating of the book
   
+## Executable file explanation: 
+ - ```.\user_data_gathering.py``` - main executable program
