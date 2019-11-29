@@ -63,7 +63,7 @@ def second_questions(path):
                     Separator()
                 ]).ask()
         # add the results to a dataframe
-        answer = answer if answer != 'Not read' else float('nan')
+        answer = answer if answer != 'Not read' else 0
         user_ratings.loc[i] = [books_to_rate['book_id'].iloc[i], books_to_rate['title'].iloc[i], answer]
     
     return user_ratings
