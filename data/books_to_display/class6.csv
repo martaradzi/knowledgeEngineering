@@ -1,16 +1,14 @@
-,Unnamed: 0,user_id,book_id,rating,goodreads_book_id,tag_id,count,genre_x,work_id,books_count,isbn,isbn13,authors,original_publication_year,original_title,title,language_code,average_rating,ratings_count,work_ratings_count,work_text_reviews_count,ratings_1,ratings_2,ratings_3,ratings_4,ratings_5,image_url
-0,5,11365,6,4,11870085,26138,7849,romance,16827462,226,525478817,9780000000000.0,John Green,2012.0,The Fault in Our Stars,The Fault in Our Stars,eng,4.26,2346404,2478609,140739,47994,92723,327550,698471,1311871,https://images.gr-assets.com/books/1360206420m/11870085.jpg
-1,9,9,10,5,1885,26138,8756,romance,3060926,3455,679783261,9780000000000.0,Jane Austen,1813.0,Pride and Prejudice,Pride and Prejudice,eng,4.24,2035490,2191465,49152,54700,86485,284852,609755,1155673,https://images.gr-assets.com/books/1320399351m/1885.jpg
-2,28,70,29,5,18135,26138,4204,romance,3349450,1937,743477111,9780000000000.0,"William Shakespeare, Robert           Jackson",1595.0,An Excellent conceited Tragedie of Romeo and Juliet,Romeo and Juliet,eng,3.73,1628519,1672889,14778,57980,153179,452673,519822,489235,https://images.gr-assets.com/books/1327872146m/18135.jpg
-3,33,11322,34,4,10818853,26138,1093,romance,15732562,169,1612130291,9780000000000.0,E.L. James,2011.0,Fifty Shades of Grey,"Fifty Shades of Grey (Fifty Shades, #1)",eng,3.67,1338493,1436818,75437,165455,152293,252185,294976,571909,https://images.gr-assets.com/books/1385207843m/10818853.jpg
-4,43,169,44,2,15931,26138,1257,romance,1498135,190,553816713,9780000000000.0,Nicholas Sparks,1996.0,The Notebook,"The Notebook (The Notebook, #1)",eng,4.06,1053403,1076749,17279,41395,63432,176469,298259,497194,https://images.gr-assets.com/books/1385738917m/15931.jpg
-5,105,179,107,1,3473,1642,299,adult,3143497,131,446693804,9780000000000.0,Nicholas Sparks,1999.0,A Walk to Remember,A Walk to Remember,en-US,4.15,546948,559581,11071,10640,24094,94327,169650,260870,https://images.gr-assets.com/books/1385738968m/3473.jpg
-6,116,72,118,5,7763,1659,318,adult,1955658,126,143038095,9780000000000.0,Amy Tan,1989.0,The Joy Luck Club,The Joy Luck Club,eng,3.9,515090,525243,6708,14802,30197,116748,195930,167566,https://images.gr-assets.com/books/1304978653m/7763.jpg
-7,122,8942,124,4,7937843,1642,726,adult,9585076,151,316098337,9780000000000.0,Emma Donoghue,2010.0,Room,Room,eng,4.03,511360,556327,42254,11020,26079,99831,217995,201402,https://images.gr-assets.com/books/1344265419m/7937843.jpg
-8,120,9,122,4,37442,1642,496,adult,1479280,80,60987103,9780000000000.0,"Gregory Maguire, Douglas Smith",1995.0,Wicked: The Life and Times of the Wicked Witch of the West,"Wicked: The Life and Times of the Wicked Witch of the West (The Wicked Years, #1)",eng,3.52,506900,525498,22926,40802,65835,132061,153583,133217,https://images.gr-assets.com/books/1437733293m/37442.jpg
-9,109,4,111,2,10441,1659,324,adult,2868431,98,143037145,9780000000000.0,Kim Edwards,2005.0,The Memory Keeper's Daughter,The Memory Keeper's Daughter,eng,3.64,501430,510582,18027,19453,47004,145437,183150,115538,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
-10,69,15,71,4,18490,14821,6371,horror,4836639,2618,141439475,9780000000000.0,"Mary Wollstonecraft Shelley, Percy Bysshe Shelley, Maurice Hindle",1818.0,"Frankenstein; or, The Modern Prometheus",Frankenstein,eng,3.75,808589,883563,19993,29366,74142,231022,300495,248538,https://images.gr-assets.com/books/1381512375m/18490.jpg
-11,95,73,97,5,17245,14821,7930,horror,3165724,2207,393970124,9780000000000.0,"Bram Stoker, Nina Auerbach, David J. Skal",1897.0,Dracula,Dracula,eng,3.98,618973,689739,17263,11756,36719,151396,246043,243825,https://images.gr-assets.com/books/1387151694m/17245.jpg
-12,93,4,95,4,5297,14821,1922,horror,1858012,2303,375751513,9780000000000.0,"Oscar Wilde, Jeffrey Eugenides",1891.0,The Picture of Dorian Gray,The Picture of Dorian Gray,eng,4.06,590014,674551,19647,9825,30735,129420,246892,257679,https://images.gr-assets.com/books/1424596966m/5297.jpg
-13,166,22,168,5,149267,14821,6522,horror,1742269,195,385199570,9780000000000.0,"Stephen King, Bernie Wrightson",1978.0,The Stand,The Stand,en-US,4.34,438832,469953,13808,5647,13612,56722,134098,259874,https://images.gr-assets.com/books/1213131305m/149267.jpg
-14,207,66,209,3,23807,14821,2470,horror,22533,187,99446782,9780000000000.0,Thomas Harris,1988.0,The Silence of the Lambs,"The Silence of the Lambs  (Hannibal Lecter, #2)",eng,4.14,351107,366112,3866,10268,12845,55427,123652,163920,https://images.gr-assets.com/books/1390426249m/23807.jpg
+,author_name,book_average_rating,book_id,book_title,genre_1,genre_2,num_ratings,num_reviews,pages,publish_date,score
+0,Nicholas Sparks,3.66,2602,The Notebook,Romance,Fiction,1632186,76818,356,2011,230045
+1,Jojo Moyes,4.26,187767,Sheltering Rain,Romance,Fiction,903515,76616,369,2012,15848
+2,Nicholas Sparks,4.16,5607,A Walk to Remember,Romance,Fiction,591985,12003,215,1999,45393
+3,Nicholas Sparks,4.03,226,The Rescue,Romance,Fiction,495183,11037,276,2006,3745
+4,Stephen King,4.34,1322,The Stand,Horror,Fiction,532888,16072,1153,1978,426
+5,Anne Rice,3.99,2526,Interview with the Vampire,Horror,Fantasy,433988,8933,342,April 12th 1976,18245
+6,Thomas Harris,4.17,25557,The Silence of the Lambs,Horror,Fiction,399164,4645,338,1988,31117
+7,Max Brooks,4.01,222934,The Zombie Survival Guide : Complete Protection from the Living Dead,Horror,Fiction,380355,23651,342,2006,90544
+8,Dean Koontz,3.96,6028,Odd Thomas,Horror,Fiction,227910,6865,446,2003,5469
+9,Anne Frank,4.12,1312,The Diary of a Young Girl,Nonfiction,Classics,2332500,24105,304,1947,26030
+10,Elizabeth Gilbert,3.53,27584,The Last American Man,Nonfiction,Autobiography,1321280,51575,334,February 16th 2006,4323
+11,Elie Wiesel,4.31,3747,Night,Nonfiction,Classics,837981,25369,120,1958,21242
+12,Jon Krakauer,3.97,1793,Into the Wild,Nonfiction,Biography,762908,19228,207,1996,4659

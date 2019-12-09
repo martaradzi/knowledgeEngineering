@@ -1,16 +1,13 @@
-,Unnamed: 0,user_id,book_id,rating,goodreads_book_id,tag_id,count,genre_x,work_id,books_count,isbn,isbn13,authors,original_publication_year,original_title,title,language_code,average_rating,ratings_count,work_ratings_count,work_text_reviews_count,ratings_1,ratings_2,ratings_3,ratings_4,ratings_5,image_url
-0,105,179,107,1,3473,1642,299,adult,3143497,131,446693804,9780000000000.0,Nicholas Sparks,1999.0,A Walk to Remember,A Walk to Remember,en-US,4.15,546948,559581,11071,10640,24094,94327,169650,260870,https://images.gr-assets.com/books/1385738968m/3473.jpg
-1,116,72,118,5,7763,1659,318,adult,1955658,126,143038095,9780000000000.0,Amy Tan,1989.0,The Joy Luck Club,The Joy Luck Club,eng,3.9,515090,525243,6708,14802,30197,116748,195930,167566,https://images.gr-assets.com/books/1304978653m/7763.jpg
-2,122,8942,124,4,7937843,1642,726,adult,9585076,151,316098337,9780000000000.0,Emma Donoghue,2010.0,Room,Room,eng,4.03,511360,556327,42254,11020,26079,99831,217995,201402,https://images.gr-assets.com/books/1344265419m/7937843.jpg
-3,120,9,122,4,37442,1642,496,adult,1479280,80,60987103,9780000000000.0,"Gregory Maguire, Douglas Smith",1995.0,Wicked: The Life and Times of the Wicked Witch of the West,"Wicked: The Life and Times of the Wicked Witch of the West (The Wicked Years, #1)",eng,3.52,506900,525498,22926,40802,65835,132061,153583,133217,https://images.gr-assets.com/books/1437733293m/37442.jpg
-4,109,4,111,2,10441,1659,324,adult,2868431,98,143037145,9780000000000.0,Kim Edwards,2005.0,The Memory Keeper's Daughter,The Memory Keeper's Daughter,eng,3.64,501430,510582,18027,19453,47004,145437,183150,115538,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
-5,272,180,274,5,22034,8517,1011,crime,266624,259,451205766,9780000000000.0,"Mario Puzo, Robert Thompson, Peter Bart",1969.0,The Godfather,The Godfather,eng,4.36,256480,270386,5832,2930,5985,30009,83730,147732,https://images.gr-assets.com/books/1394988109m/22034.jpg
-6,530,220,532,3,59980,8517,92,crime,2501570,74,1401207529,9780000000000.0,"Frank Miller, David Mazzucchelli, Richmond Lewis, Dennis O'Neil",1987.0,Batman: Year One,Batman: Year One,eng,4.23,145267,148446,1954,3392,4611,19732,47742,72969,https://images.gr-assets.com/books/1327940389m/59980.jpg
-7,2144,538,2148,3,44184,8517,129,crime,1386643,39,64407314,9780000000000.0,Walter Dean Myers,1999.0,Monster,Monster,eng,3.7,47533,48399,4394,1485,4418,13848,16267,12381,https://images.gr-assets.com/books/1404962824m/44184.jpg
-8,2180,137,2184,2,13143,8517,205,crime,2471943,82,446608815,9780000000000.0,James Patterson,1999.0,Pop Goes the Weasel,"Pop Goes the Weasel (Alex Cross, #5)",eng,3.98,46820,49447,927,270,1642,12009,20463,15063,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
-9,2107,2123,2111,5,22374,8517,23,crime,1807553,53,1401204252,9780000000000.0,"Grant Morrison, Dave McKean",1989.0,Batman: Arkham Asylum - A Serious House on Serious Earth,Batman: Arkham Asylum - A Serious House on Serious Earth,eng,4.09,45345,48028,1457,944,2553,8521,15210,20800,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
-10,50,1525,51,5,256683,22973,4297,paranormal,2267189,178,1416914285,9780000000000.0,Cassandra Clare,2007.0,City of Bones,"City of Bones (The Mortal Instruments, #1)",eng,4.12,1154031,1241799,51589,34122,65349,203466,356048,582814,https://images.gr-assets.com/books/1432730315m/256683.jpg
-11,416,8457,418,5,6479259,22973,1856,paranormal,6670482,71,1595142509,9780000000000.0,Richelle Mead,2010.0,Spirit Bound,"Spirit Bound (Vampire Academy, #5)",eng,4.37,224247,235076,8030,2755,5907,26981,66097,133336,https://images.gr-assets.com/books/1291168967m/6479259.jpg
-12,541,8457,543,5,6527740,22973,1803,paranormal,13385418,63,1595143068,9780000000000.0,Richelle Mead,2010.0,Last Sacrifice ,"Last Sacrifice (Vampire Academy, #6)",eng,4.42,206792,217652,10312,2797,5330,21948,54440,133137,https://images.gr-assets.com/books/1319850978m/6527740.jpg
-13,581,10438,583,4,10637766,22973,1180,paranormal,14158688,65,1442426640,9780000000000.0,Becca Fitzpatrick,2011.0,Silence ,"Silence (Hush, Hush, #3)",eng,4.16,190722,197338,7290,4217,9307,32161,55811,95842,https://images.gr-assets.com/books/1362408152m/10637766.jpg
-14,747,6913,750,4,12578077,22973,2341,paranormal,17588854,60,1620610078,9780000000000.0,Jennifer L. Armentrout,2011.0,Obsidian,"Obsidian (Lux, #1)",eng,4.23,164832,176296,15367,4284,6932,23256,50731,91093,https://images.gr-assets.com/books/1328275091m/12578077.jpg
+,author_name,book_average_rating,book_id,book_title,genre_1,genre_2,num_ratings,num_reviews,pages,publish_date,score
+0,Anne Frank,4.12,1312,The Diary of a Young Girl,Nonfiction,Classics,2332500,24105,304,1947,26030
+1,Elizabeth Gilbert,3.53,27584,The Last American Man,Nonfiction,Autobiography,1321280,51575,334,February 16th 2006,4323
+2,Elie Wiesel,4.31,3747,Night,Nonfiction,Classics,837981,25369,120,1958,21242
+3,Jon Krakauer,3.97,1793,Into the Wild,Nonfiction,Biography,762908,19228,207,1996,4659
+4,Lee Child,4.05,13469,Killing Floor,Thriller,Mystery,209683,9175,424,March 17th 1997,25287
+5,Shannon McKenna,3.94,34946,Behind Closed Doors,Thriller,Fiction,200209,19887,293,February 11th 2016,33633
+6,Ann Rule,4.14,9024,The Stranger Beside Me,Crime,Nonfiction,51237,2701,560,1980,8388
+7,Douglas Preston,3.74,7745,Thunderhead,Crime,Nonfiction,27145,2657,322,2008,3620
+8,Joseph Wambaugh,4.13,27868,The Onion Field,Crime,Nonfiction,17434,322,512,1973,5621
+9,Mara Leveritt,4.13,25864,Devil's Knot: The True Story of the West Memphis Three,Crime,Nonfiction,7785,658,419,2002,3308
+10,Vincent Bugliosi,3.98,1669,And the Sea Will Tell,Crime,Nonfiction,6610,328,729,January 1st 1991,2925
+

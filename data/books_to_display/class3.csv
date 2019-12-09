@@ -1,11 +1,13 @@
-,Unnamed: 0,user_id,book_id,rating,goodreads_book_id,tag_id,count,genre_x,work_id,books_count,isbn,isbn13,authors,original_publication_year,original_title,title,language_code,average_rating,ratings_count,work_ratings_count,work_text_reviews_count,ratings_1,ratings_2,ratings_3,ratings_4,ratings_5,image_url
-0,8,9,9,1,960,20939,5740,mystery,3338963,311,1416524797,9781416524790.0,Dan Brown,2000.0,Angels & Demons ,"Angels & Demons  (Robert Langdon, #1)",en-CA,3.85,2001311,2078754,25112,77841,145740,458429,716569,680175,https://images.gr-assets.com/books/1303390735m/960.jpg
-1,15,3668,16,5,2429135,20939,9141,mystery,1708725,274,307269752,9780000000000.0,"Stieg Larsson, Reg Keeland",2005.0,Män som hatar kvinnor,"The Girl with the Dragon Tattoo (Millennium, #1)",eng,4.11,1808403,1929834,62543,54835,86051,285413,667485,836050,https://images.gr-assets.com/books/1327868566m/2429135.jpg
-2,21,32,22,4,12232938,20939,2510,mystery,1145090,183,316166685,9780000000000.0,Alice Sebold,2002.0,The Lovely Bones,The Lovely Bones,eng,3.77,1605173,1661562,36642,62777,131188,404699,583575,479323,https://images.gr-assets.com/books/1457810586m/12232938.jpg
-3,60,22421,61,4,22557272,20939,7100,mystery,41107568,14,1594633665,9780000000000.0,Paula Hawkins,2015.0,The Girl on the Train,The Girl on the Train,eng,3.88,1008778,1226485,93600,27773,73897,273817,488447,362551,https://images.gr-assets.com/books/1490903702m/22557272.jpg
-4,59,9,60,5,1618,20939,188,mystery,4259809,183,1400032717,9780000000000.0,Mark Haddon,2003.0,The Curious Incident of the Dog in the Night-Time,The Curious Incident of the Dog in the Night-Time,eng,3.85,867553,915790,35796,21049,58117,218218,355925,262481,https://images.gr-assets.com/books/1479863624m/1618.jpg
-5,25,2,26,4,968,30358,5358,suspense,2982101,350,307277674,9780307277670.0,Dan Brown,2003.0,The Da Vinci Code,"The Da Vinci Code (Robert Langdon, #2)",eng,3.79,1447148,1557292,41560,71345,126493,340790,539277,479387,https://images.gr-assets.com/books/1303252999m/968.jpg
-6,121,4,123,4,5358,30358,1251,suspense,38270,11,582418275,9780000000000.0,John Grisham,1991.0,The Firm,"The Firm (Penguin Readers, Level 5)",eng,3.99,488269,488355,3139,5075,20119,111543,190966,160652,https://images.gr-assets.com/books/1418465200m/5358.jpg
-7,143,4,145,2,976,30358,2273,suspense,3135896,180,671027387,9780671027380.0,Dan Brown,2001.0,Deception Point,Deception Point,eng,3.67,455610,479733,7798,14380,45006,143182,160819,116346,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
-8,168,143,170,3,11125,30358,2213,suspense,40195,185,552151696,9780000000000.0,Dan Brown,1998.0,Digital Fortress,Digital Fortress,en-GB,3.6,423019,447503,7538,16592,47507,136196,144029,103179,https://images.gr-assets.com/books/1360095966m/11125.jpg
-9,194,65,196,5,5759,30358,658,suspense,68729,162,393327345,9780000000000.0,Chuck Palahniuk,1996.0,Fight Club,Fight Club,eng,4.2,365349,388654,11176,4578,12632,58110,139554,173780,https://images.gr-assets.com/books/1357128997m/5759.jpg
+,author_name,book_average_rating,book_id,book_title,genre_1,genre_2,num_ratings,num_reviews,pages,publish_date,score
+0,Douglas Adams,4.22,162,The Hitchhiker's Guide to the Galaxy,Science Fiction,Fiction,1187415,24633,193,October 12th 1979,9073
+1,Orson Scott Card,4.3,3946,Ender's Game,Science Fiction,Fiction,984497,40614,324,1985,4891
+2,Michael Crichton,4.0,1195,Jurassic Park,Science Fiction,Fiction,717329,10047,480,November 7th 1990,2728
+3,Frank Herbert,4.21,4115,Dune,Science Fiction,Fiction,598915,15723,604,June 1st 1965,271577
+4,Isaac Asimov,4.15,3745,Foundation,Science Fiction,Fiction,348254,7681,244,1951,8691
+5,Agatha Christie,4.25,2573,And Then There Were None,Mystery,Classics,603042,23607,264,November 6th 1939,4050
+6,Agatha Christie,3.95,2571,Endless Night,Mystery,Fiction,489441,36532,254,by,3054
+7,Janet Evanovich,4.03,669,One for the Money,Mystery,Fiction,442767,13808,320,August 26th 1994,10769
+8,James Patterson,4.1,677,Along Came a Spider,Mystery,Fiction,357060,4294,449,February 1st 1993,339
+9,Lisa Harris,4.25,203986,Trouble in Paradise (Temptation),Suspense,Christian Fiction,1110,174,305,December 30th 2014,3653
+10,Robert J. Groden,4.32,67453,High Treason,Suspense,Christian Fiction,343,79,416,2018,5560
+11,Margaret Peterson Haddix,4.28,60029,Among the Impostors,Suspense,Romance,177,76,354,2012,803

@@ -1,11 +1,21 @@
-,Unnamed: 0,user_id,book_id,rating,goodreads_book_id,tag_id,count,genre_x,work_id,books_count,isbn,isbn13,authors,original_publication_year,original_title,title,language_code,average_rating,ratings_count,work_ratings_count,work_text_reviews_count,ratings_1,ratings_2,ratings_3,ratings_4,ratings_5,image_url
-0,12,4,13,4,5470,26837,7892,scifi,153313,995,451524934,9780000000000.0,"George Orwell, Erich Fromm, Celâl Üster",1949.0,Nineteen Eighty-Four,1984,eng,4.14,1956832,2053394,45518,41845,86425,324874,692021,908229,https://images.gr-assets.com/books/1348990566m/5470.jpg
-1,35,4,36,5,3636,26837,351,scifi,2543234,192,385732554,9780000000000.0,Lois Lowry,1993.0,The Giver,"The Giver (The Giver, #1)",eng,4.12,1296825,1345445,54084,26497,59652,225326,448691,585279,https://images.gr-assets.com/books/1342493368m/3636.jpg
-2,54,8,55,5,5129,26837,7151,scifi,3204877,515,60929871,9780000000000.0,Aldous Huxley,1932.0,Brave New World,Brave New World,eng,3.97,1022601,1079135,20095,26367,60328,219895,389379,383166,https://images.gr-assets.com/books/1487389574m/5129.jpg
-3,53,76,54,5,11,26837,10977,scifi,3078186,257,345391802,9780345391800.0,Douglas Adams,1979.0,The Hitchhiker's Guide to the Galaxy,"The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)",en-US,4.2,936782,1006479,20345,21764,41962,145173,299579,498001,https://images.gr-assets.com/books/1327656754m/11.jpg
-4,64,4,65,4,4981,26837,3863,scifi,1683562,241,385333846,9780000000000.0,Kurt Vonnegut Jr.,1969.0,"Slaughterhouse-Five, or The Children's Crusade: A Duty-Dance with Death ",Slaughterhouse-Five,eng,4.06,846488,891762,19646,24964,45518,152442,300948,367890,https://images.gr-assets.com/books/1440319389m/4981.jpg
-5,3,15,4,3,2657,14487,4735,historical,3275794,487,61120081,9780000000000.0,Harper Lee,1960.0,To Kill a Mockingbird,To Kill a Mockingbird,eng,4.25,3198671,3340896,72586,60427,117415,446835,1001952,1714267,https://images.gr-assets.com/books/1361975680m/2657.jpg
-6,4,4,5,4,4671,14487,2394,historical,245494,1356,743273567,9780000000000.0,F. Scott Fitzgerald,1925.0,The Great Gatsby,The Great Gatsby,eng,3.89,2683664,2773745,51992,86236,197621,606158,936012,947718,https://images.gr-assets.com/books/1490528560m/4671.jpg
-7,10,4,11,4,77203,14487,3741,historical,3295919,283,1594480001,9780000000000.0,Khaled Hosseini,2003.0,The Kite Runner ,The Kite Runner,eng,4.26,1813044,1878095,59730,34288,59980,226062,628174,929591,https://images.gr-assets.com/books/1484565687m/77203.jpg
-8,30,5191,31,5,4667024,14487,8342,historical,4717423,183,399155341,9780000000000.0,Kathryn Stockett,2009.0,The Help,The Help,eng,4.45,1531753,1603545,78204,10235,25117,134887,490754,942552,https://images.gr-assets.com/books/1346100365m/4667024.jpg
-9,31,4,32,4,890,14487,1433,historical,40283,373,142000671,9780142000670.0,John Steinbeck,1937.0,Of Mice and Men ,Of Mice and Men,eng,3.84,1467496,1518741,24642,46630,110856,355169,532291,473795,https://images.gr-assets.com/books/1437235233m/890.jpg
+,author_name,book_average_rating,book_id,book_title,genre_1,genre_2,num_ratings,num_reviews,pages,publish_date,score
+0,Anne Frank,4.12,1312,The Diary of a Young Girl,Nonfiction,Classics,2332500,24105,304,1947,26030
+1,Elizabeth Gilbert,3.53,27584,The Last American Man,Nonfiction,Autobiography,1321280,51575,334,February 16th 2006,4323
+2,Elie Wiesel,4.31,3747,Night,Nonfiction,Classics,837981,25369,120,1958,21242
+3,Jon Krakauer,3.97,1793,Into the Wild,Nonfiction,Biography,762908,19228,207,1996,4659
+4,Douglas Adams,4.22,162,The Hitchhiker's Guide to the Galaxy,Science Fiction,Fiction,1187415,24633,193,October 12th 1979,9073
+5,Orson Scott Card,4.3,3946,Ender's Game,Science Fiction,Fiction,984497,40614,324,1985,4891
+6,Michael Crichton,4.0,1195,Jurassic Park,Science Fiction,Fiction,717329,10047,480,November 7th 1990,2728
+7,Frank Herbert,4.21,4115,Dune,Science Fiction,Fiction,598915,15723,604,June 1st 1965,271577
+8,Isaac Asimov,4.15,3745,Foundation,Science Fiction,Fiction,348254,7681,244,1951,8691
+9,Paulo Freire,4.26,74521,Pedagogy of the Oppressed,Education,Nonfiction,20458,1108,192,1968,2861
+10,Stephen Hawking,4.15,4871,A Brief History of Time,Science,Nonfiction,228826,6804,212,April 1st 1988,30132
+11,Richard Feynman,4.27,141030,"Surely You're Joking, Mr. Feynman!: Adventures of a Curious Character",Science,Nonfiction,120202,4363,391,1985,4915
+12,Carl Sagan,4.36,36385,Cosmos,Science,Nonfiction,97120,2472,384,1980,470
+13,Charles Darwin,3.98,105545,The Origin of Species,Science,Nonfiction,83935,2036,703,November 24th 1859,15551
+14,Douglas R. Hofstadter,4.3,2967,"Gödel, Escher, Bach: An Eternal Golden Braid",Science,Nonfiction,37283,1586,777,1979,14736
+15,Stephen King,4.34,1322,The Stand,Horror,Fiction,532888,16072,1153,1978,426
+16,Anne Rice,3.99,2526,Interview with the Vampire,Horror,Fantasy,433988,8933,342,April 12th 1976,18245
+17,Thomas Harris,4.17,25557,The Silence of the Lambs,Horror,Fiction,399164,4645,338,1988,31117
+18,Max Brooks,4.01,222934,The Zombie Survival Guide : Complete Protection from the Living Dead,Horror,Fiction,380355,23651,342,2006,90544
+19,Dean Koontz,3.96,6028,Odd Thomas,Horror,Fiction,227910,6865,446,2003,5469

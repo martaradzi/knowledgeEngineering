@@ -1,16 +1,17 @@
-,Unnamed: 0,user_id,book_id,rating,goodreads_book_id,tag_id,count,genre_x,work_id,books_count,isbn,isbn13,authors,original_publication_year,original_title,title,language_code,average_rating,ratings_count,work_ratings_count,work_text_reviews_count,ratings_1,ratings_2,ratings_3,ratings_4,ratings_5,image_url
-0,0,2886,1,5,2767052,11305,10836,fantasy,2792775,272,439023483,9780000000000.0,Suzanne Collins,2008.0,The Hunger Games,"The Hunger Games (The Hunger Games, #1)",eng,4.34,4780653,4942365,155254,66715,127936,560092,1481305,2706317,https://images.gr-assets.com/books/1447303603m/2767052.jpg
-1,1,4,2,5,3,11305,47478,fantasy,4640799,491,439554934,9780439554930.0,"J.K. Rowling, Mary GrandPré",1997.0,Harry Potter and the Philosopher's Stone,"Harry Potter and the Sorcerer's Stone (Harry Potter, #1)",eng,4.44,4602479,4800065,75867,75504,101676,455024,1156318,3011543,https://images.gr-assets.com/books/1474154022m/3.jpg
-2,2,451,3,5,41865,11305,14288,fantasy,3212258,226,316015849,9780000000000.0,Stephenie Meyer,2005.0,Twilight,"Twilight (Twilight, #1)",en-US,3.57,3866839,3916824,95009,456191,436802,793319,875073,1355439,https://images.gr-assets.com/books/1361039443m/41865.jpg
-3,6,32,7,3,5907,11305,41786,fantasy,1540236,969,618260307,9780000000000.0,J.R.R. Tolkien,1937.0,The Hobbit or There and Back Again,The Hobbit,en-US,4.25,2071616,2196809,37653,46023,76784,288649,665635,1119718,https://images.gr-assets.com/books/1372847500m/5907.jpg
-4,11,10540,12,4,13335037,11305,5134,fantasy,13155899,210,62024035,9780000000000.0,Veronica Roth,2011.0,Divergent,"Divergent (Divergent, #1)",eng,4.24,1903563,2216814,101023,36315,82870,310297,673028,1114304,https://images.gr-assets.com/books/1328559506m/13335037.jpg
-5,8,9,9,1,960,20939,5740,mystery,3338963,311,1416524797,9781416524790.0,Dan Brown,2000.0,Angels & Demons ,"Angels & Demons  (Robert Langdon, #1)",en-CA,3.85,2001311,2078754,25112,77841,145740,458429,716569,680175,https://images.gr-assets.com/books/1303390735m/960.jpg
-6,15,3668,16,5,2429135,20939,9141,mystery,1708725,274,307269752,9780000000000.0,"Stieg Larsson, Reg Keeland",2005.0,Män som hatar kvinnor,"The Girl with the Dragon Tattoo (Millennium, #1)",eng,4.11,1808403,1929834,62543,54835,86051,285413,667485,836050,https://images.gr-assets.com/books/1327868566m/2429135.jpg
-7,21,32,22,4,12232938,20939,2510,mystery,1145090,183,316166685,9780000000000.0,Alice Sebold,2002.0,The Lovely Bones,The Lovely Bones,eng,3.77,1605173,1661562,36642,62777,131188,404699,583575,479323,https://images.gr-assets.com/books/1457810586m/12232938.jpg
-8,60,22421,61,4,22557272,20939,7100,mystery,41107568,14,1594633665,9780000000000.0,Paula Hawkins,2015.0,The Girl on the Train,The Girl on the Train,eng,3.88,1008778,1226485,93600,27773,73897,273817,488447,362551,https://images.gr-assets.com/books/1490903702m/22557272.jpg
-9,59,9,60,5,1618,20939,188,mystery,4259809,183,1400032717,9780000000000.0,Mark Haddon,2003.0,The Curious Incident of the Dog in the Night-Time,The Curious Incident of the Dog in the Night-Time,eng,3.85,867553,915790,35796,21049,58117,218218,355925,262481,https://images.gr-assets.com/books/1479863624m/1618.jpg
-10,12,4,13,4,5470,26837,7892,scifi,153313,995,451524934,9780000000000.0,"George Orwell, Erich Fromm, Celâl Üster",1949.0,Nineteen Eighty-Four,1984,eng,4.14,1956832,2053394,45518,41845,86425,324874,692021,908229,https://images.gr-assets.com/books/1348990566m/5470.jpg
-11,35,4,36,5,3636,26837,351,scifi,2543234,192,385732554,9780000000000.0,Lois Lowry,1993.0,The Giver,"The Giver (The Giver, #1)",eng,4.12,1296825,1345445,54084,26497,59652,225326,448691,585279,https://images.gr-assets.com/books/1342493368m/3636.jpg
-12,54,8,55,5,5129,26837,7151,scifi,3204877,515,60929871,9780000000000.0,Aldous Huxley,1932.0,Brave New World,Brave New World,eng,3.97,1022601,1079135,20095,26367,60328,219895,389379,383166,https://images.gr-assets.com/books/1487389574m/5129.jpg
-13,53,76,54,5,11,26837,10977,scifi,3078186,257,345391802,9780345391800.0,Douglas Adams,1979.0,The Hitchhiker's Guide to the Galaxy,"The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)",en-US,4.2,936782,1006479,20345,21764,41962,145173,299579,498001,https://images.gr-assets.com/books/1327656754m/11.jpg
-14,64,4,65,4,4981,26837,3863,scifi,1683562,241,385333846,9780000000000.0,Kurt Vonnegut Jr.,1969.0,"Slaughterhouse-Five, or The Children's Crusade: A Duty-Dance with Death ",Slaughterhouse-Five,eng,4.06,846488,891762,19646,24964,45518,152442,300948,367890,https://images.gr-assets.com/books/1440319389m/4981.jpg
+,author_name,book_average_rating,book_id,book_title,genre_1,genre_2,num_ratings,num_reviews,pages,publish_date,score
+0,Jenny  Phillips,4.3,52261,Hans Andersen's Fairy Tales,Fantasy,54,25,84,,400
+1,J.R.R. Tolkien,4.26,58189,The Hobbit,Fantasy,Classics,2471588,42006,366,September 21st 1937,28145
+2,J.K. Rowling,4.55,85248,Harry Potter and the Prisoner of Azkaban,Fantasy,Young Adult,2275315,44330,435,July 8th 1999,16775
+3,J.K. Rowling,4.48,86393,Harry Potter and the Order of the Phoenix,Fantasy,Young Adult,2087093,34321,870,June 21st 2003,1412
+4,J.K. Rowling,4.56,181540,Harry Potter and the Sorcerer's Stone,Fantasy,Young Adult,2036961,32557,652,July 16th 2005,672
+5,C.S. Lewis,4.21,18695,"The Lion, the Witch and the Wardrobe",Fantasy,Classics,1839095,17934,208,October 16th 1950,4288
+6,Shel Silverstein,4.37,2515,The Giving Tree,Childrens,Childrens,801232,15919,64,1964,598270
+7,Maurice Sendak,4.22,20628,Where the Wild Things Are,Childrens,Childrens,716983,10578,37,April 19th 1963,285130
+8,Roald Dahl,4.3,27972,Matilda,Childrens,Fiction,508838,13336,240,October 1st 1988,6167
+9,Eric Carle,4.29,32123,The Very Hungry Caterpillar,Childrens,Childrens,342836,6809,26,1969,11395
+10,Roald Dahl,4.22,33232,The BFG,Childrens,Fantasy,306728,9021,195,1982,9669
+11,Diane Duane,4.05,164513,Spider-Man: The Octopus Agenda (Marvel Comics),Comics,Fantasy,1602,109,206,2013,1643
+12,Garth Ennis,3.61,50128,Preacher: Alamo (Preacher (DC Comics)),Comics,Science Fiction,961,76,288,July 7th 2003,935
+13,Alan Moore,3.97,101467,Batman: The Killing Joke (Batman (DC Comics Paperback)),Comics,Fantasy,799,78,416,2008,1150
+14,Robert N. Skir,3.25,251143,X-Men: Morlock Madness (Marvel Comics),Comics,Fantasy,760,106,384,January 1st 2008,570
+15,Akira Toriyama,3.96,215463,Dragon Ball (Dragon Ball),Comics,Science Fiction,611,63,370,July 18th 2013,399
