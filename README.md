@@ -70,7 +70,7 @@ The following data is used by the system:
   - ```.\data\user_data\good_reads_final.csv``` - describes the collection of books used in this project
   
   - ```.\data\books_to_display\``` - contains .csv files with the expert's knowledge and is used to displayed personalized books for the user to rate
-
+  - ```.\BX-CSV_Dump\``` - directory containing data needed for creation of matrix and training of the model
 
   
 ## File explanation: 
