@@ -5,7 +5,7 @@ import csv
 import pandas as pd
 
 
-def first_questions():
+def first_question_batch():
     # ask for age and education 
     # RETURNS: DICT
     questions = [
@@ -38,8 +38,25 @@ def first_questions():
     ]
     return prompt(questions)
 
+def user_classification(user_data, class_matrix):
+    classified_user_class = ''
+    # first classification - check for belonging in a premade class
+    for row in class_matrix:
+        if row[0] == user_data['age']:
+            if row[1] == user_data['education']:
+                classified_user_class = row[2]
+        else:
+            continue
 
-def second_questions(path):
+    # check if the user belongs to a class
+    if not classified_user_class:
+        print('\n\n \t\t\t Apologise \n \tWe do not have a recommendation for You\n\n')
+        sys.exit()
+
+    return classified_user_class
+
+
+def second_question_batch(path):
     # ask to rate books based on the class
     # RETURNS: PANDAS DF
 
@@ -75,20 +92,22 @@ def second_questions(path):
     return (user_ratings)
 
 
-def save_user_data(final_data):
+def save_user_data(user_rating_data, path_bx):
     max_user_id = 0
-    with open('BX-CSV-Dump/BX-Book-Ratings.csv', 'r+', newline='') as f:
+    with open(path_bx, 'r+', newline='') as f:
         csvReader = csv.reader(f,delimiter=';')
         max_revenue_row = max(csvReader, key=lambda row: int(row[0]))
         max_user_id = int(max_revenue_row[0])
         max_user_id +=1
-        final_data.insert(loc=0, column="user_id", value=max_user_id)
-        final_data.to_csv(f,index=False, sep=';', header=False)
+        user_rating_data.insert(loc=0, column="user_id", value=max_user_id)
+        user_rating_data.to_csv(f,index=False, sep=';', header=False)
         f.close()
 
 
-# setting up classes
-class_matrix = [
+
+def user_data_gathering():
+    # initialize variables
+    class_matrix = [
                 ['0 - 12', 'primary' ,'class1'],
                 ['12 - 18', 'primary', 'class2'],
                 ['12 - 18', 'high school', 'class3'],
@@ -99,33 +118,12 @@ class_matrix = [
                 ['45+', 'high school', 'class8'],
                 ['45+', 'university', 'class9'],
                 ]
-
-
-if __name__ == '__main__':
-
-    # initialize variables
-    user_data = first_questions()
-    final_class = ''
     path_books_to_rate = './data/books_to_display/'
-    path_to_save = './data/user_data/user_ratings.csv'
+    path_matrix = './BX-CSV-Dump/BX-Book-Ratings.csv'
 
-    # first classification - check for belonging in a premade class
-    for row in class_matrix:
-        if row[0] == user_data['age']:
-            if row[1] == user_data['education']:
-                final_class = row[2]
-        else:
-            continue
-
-    # check if the user belongs to a class
-    if not final_class:
-        print('\n\n \t\t\t Apologise \n \tWe do not have a recommendation for You\n\n')
-        sys.exit()
-
-    # second questionary - rating books
-    final_data = second_questions(path_books_to_rate + final_class + '.csv')
-    print (final_data)
-    save_user_data(final_data)
+    classified_user_class = user_classification(first_question_batch(), class_matrix)
+    user_rating_data = second_question_batch(path_books_to_rate + classified_user_class + '.csv')
+    save_user_data(user_rating_data, path_matrix)
 
 
 

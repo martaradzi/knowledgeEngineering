@@ -23,7 +23,7 @@ pip install -r requirements.txt
 To run the program use the command:
 
 ```python
-python user_data_gathering.py
+python book_recommender.py
 ```
 
 # Information about the system
@@ -67,9 +67,13 @@ The external user dataset consists of 60 000 users with at least 10 books review
 ## DATA: 
 
 The following data is used by the system:
-  - ```.\data\books_to_display\``` - contains .csv files with the expert's knowledge and is used to displayed personalized books for the user to rate
-  - ```.\data\user_data\user_ratings.csv``` - created from the user rating, contains the books title, unique book ID, and the user's rating of te book title
-  - ```.\data\ratings.csv``` - external user dataset obtained from [Goodreads](https://www.goodreads.com/ " Goodreads") containg a unique external user ID, unique book ID and the external user's rating of the book
+  - ```.\data\user_data\good_reads_final.csv``` - describes the collection of books used in this project
   
-## Executable file explanation: 
- - ```.\user_data_gathering.py``` - main executable program
+  - ```.\data\books_to_display\``` - contains .csv files with the expert's knowledge and is used to displayed personalized books for the user to rate
+
+
+  
+## File explanation: 
+ - ```.base_classes\user_data_gathering.py``` - contains the first and second classification task
+ - ```.base_classes\book.py``` - creates a matrix used for recommendation
+ - ```.\book_recommender.py``` - main executable file, contains assignment task

@@ -1,14 +1,15 @@
 # -*- coding: utf-8 -*-
-# Your code goes below this line
 import numpy as np
 import csv
 import pickle
 from lightfm.datasets import fetch_movielens
 from lightfm import LightFM
 import scipy.sparse as sp
-from book import book
 from sklearn.metrics import roc_auc_score
 from lightfm.evaluation import auc_score
+
+from book import book
+from user_data_gathering import user_data_gathering
 
 
 
@@ -26,7 +27,10 @@ def get_recommendations(pretrain_model, coo_mtrx, users_ids, books_id):
 
 
 def main():
-    data = book(min_score=8)
+
+    user_data_gathering()
+
+    data = book(8)
     with open("BX-CSV-Dump/explicit_rec.pkl", "rb") as fid:
         pretrain_model = pickle.load(fid)
     
@@ -36,10 +40,9 @@ def main():
         max_user_id_row = max(csvReader, key=lambda row: int(row[0]))
         max_user_id = int(max_user_id_row[0])
     user = max_user_id
-    # user = '276685'
+
     get_recommendations(pretrain_model, data['matrix'], user, data['books_id'])
-    # auc_model=auc_score(pretrain_model,data['matrix']).mean()
-    # print("AUC Score:AUC Score: {}".format(auc_model)) 
+
 
 if __name__ == "__main__":
     main()
