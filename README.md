@@ -1,4 +1,4 @@
-# System Repository for  [Knowledge Engineering](https://studiegids.vu.nl/en/Master/2018-2019/computer-science/X_405099) assignment for Group 20
+# System Repository for  [Knowledge Engineering](https://studiegids.vu.nl/en/Master/2018-2019/computer-science/X_405099) assignment for Group 25
 
 For the course, we will create a knowledge intensive system concerning book recommendation system. 
 
