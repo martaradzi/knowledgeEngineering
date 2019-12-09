@@ -1,6 +1,7 @@
 import questionary
 from questionary import Separator, Choice, prompt
 import sys
+import csv
 import pandas as pd
 
 
@@ -43,7 +44,7 @@ def second_questions(path):
     # RETURNS: PANDAS DF
 
     # initialize a dataframe for storing the results
-    user_ratings = pd.DataFrame(columns=('book_id', 'title', 'user_rating'))
+    user_ratings = pd.DataFrame(columns=('book_id', 'user_rating'))
 
     # read in the correct csv file
     books_to_rate = pd.read_csv(path)
@@ -51,7 +52,7 @@ def second_questions(path):
     # loop over the books in a premade dataset for a class
     for i in range(0, len(books_to_rate)):
         answer = questionary.select(
-                "\n\n Rate the book " + books_to_rate['title'].iloc[i] + "\n\n",
+                "\n\n Rate the book " + books_to_rate['book_title'].iloc[i] + "\n\n",
                 choices=[
                     Separator(),
                     '1',
@@ -59,14 +60,19 @@ def second_questions(path):
                     '3',
                     '4',
                     '5',
+                    '6',
+                    '7',
+                    '8',
+                    '9',
+                    '10',
                     'Not read',
                     Separator()
                 ]).ask()
         # add the results to a dataframe
         answer = answer if answer != 'Not read' else 0
-        user_ratings.loc[i] = [books_to_rate['book_id'].iloc[i], books_to_rate['title'].iloc[i], answer]
+        user_ratings.loc[i] = [books_to_rate['book_id'].iloc[i], answer]
     
-    return user_ratings
+    return (user_ratings)
 
 
 # setting up classes
@@ -106,8 +112,28 @@ if __name__ == '__main__':
 
     # second questionary - rating books
     final_data = second_questions(path_books_to_rate + final_class + '.csv')
+    # x = final_data["book_id"]
+    # y = final_data["user_rating"]
+    print (final_data)
 
-    # save data in a csv
-    final_data.to_csv(path_to_save, index=False)
+max_user_id = 0
+with open('BX-CSV-Dump/BX-Book-Ratings.csv', 'r') as f:
+    csvReader = csv.reader(f,delimiter=';')
+    next(csvReader) 
+    max_revenue_row = max(csvReader, key=lambda row: int(row[0]))
+    max_user_id = int(max_revenue_row[0])
+    max_user_id +=1
+
+with open('BX-CSV-Dump/BX-Book-Ratings.csv', 'a') as f:
+    csvReader = csv.reader(f,delimiter=';')
+    # next(csvReader) 
+    final_data.insert(loc=0, column="user_id", value=max_user_id)
+    final_data.to_csv(f,index=False, sep=';',header=False)
+
+# with open('BX-CSV-Dump/BX-Users.csv', 'a') as f:
+#     csvWriter = csv.writer(f,delimiter=';',quoting=csv.QUOTE_ALL)
+#     csvWriter.writerow([max_user_id, 'Amsterdam',0])
+
+
 
 
