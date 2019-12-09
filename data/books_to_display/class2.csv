@@ -1,12 +1,12 @@
 ,author_name,book_average_rating,book_id,book_title,genre_1,genre_2,num_ratings,num_reviews,pages,publish_date,score
 0,Douglas Adams,4.22,162,The Hitchhiker's Guide to the Galaxy,Science Fiction,Fiction,1187415,24633,193,October 12th 1979,9073
 1,Orson Scott Card,4.3,946,Ender's Game,Science Fiction,Fiction,984497,40614,324,1985,4891
-2,Michael Crichton,4.0,1195,Jurassic Park,Science Fiction,Fiction,717329,10047,480,November 7th 1990,2728
+2,Michael Crichton,4,1195,Jurassic Park,Science Fiction,Fiction,717329,10047,480,November 7th 1990,2728
 3,Frank Herbert,4.21,4115,Dune,Science Fiction,Fiction,598915,15723,604,June 1st 1965,271577
 4,Isaac Asimov,4.15,3745,Foundation,Science Fiction,Fiction,348254,7681,244,1951,8691
-5,Isaac Asimov,3.91,3417,I, Robot,Science Fiction Fantasy,Romance,22,4,167,April 5th 2012,3391
+5,Isaac Asimov,3.91,3417,Robot 1,Science Fiction Fantasy,Romance,22,4,167,April 5th 2012,3391
 6,Isaac Asimov,3.67,13873,Robots of Dawn (Robots of Dawn),Science Fiction Fantasy,See top shelves…,3,0,188,May 2nd 2012,3056
-7,Clive Cussler,3.77,54745,The Mediterranean Caper,Adventure,Fiction,16822,589,384,January 1973,1430
+7,Clive Cussler,3.77,54745,The Mediterranean Caper,Adventure,Fiction,16822,589,384,Jan-73,1430
 8,Clive Cussler,3.9,15062,Night Probe,Adventure,Thriller,12659,701,538,2007,1252
 9,Clive Cussler,3.9,5000,Fire Ice,Adventure,Fiction,7991,153,544,June 3rd 2002,570
 10,Clive Cussler,3.86,15065,The SEA HUNTERS,Adventure,Historical,7090,1692,327,2015,633
@@ -15,5 +15,5 @@
 13,J.K. Rowling,4.48,86393,Harry Potter and the Order of the Phoenix,Fantasy,Young Adult,2087093,34321,870,June 21st 2003,1412
 14,J.K. Rowling,4.56,181540,Harry Potter and the Sorcerer's Stone,Fantasy,Young Adult,2036961,32557,652,July 16th 2005,672
 15,C.S. Lewis,4.21,8695,"The Lion, the Witch and the Wardrobe",Fantasy,Classics,1839095,17934,208,October 16th 1950,4288
-16,Dan Brown,3.88,89903,Angels & Demons,Fiction,Mystery,2334743,26835,736,May 2000,3071
+16,Dan Brown,3.88,89903,Angels & Demons,Fiction,Mystery,2334743,26835,736,May-00,3071
 17,Alice Sebold,3.79,408,The Lovely Bones,Fiction,Mystery,1807318,38491,328,July 3rd 2002,8263
