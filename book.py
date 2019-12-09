@@ -37,7 +37,7 @@ def book(min_score=8):
             if book_id not in books_id:
                 books_id[book_id] = {
     			'name' : book_name,
-    			'id' : book_id,
+    			# 'id' : book_id,
                 'author' : book_author
     			}
 

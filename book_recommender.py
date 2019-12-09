@@ -19,7 +19,7 @@ def get_recommendations(pretrain_model, coo_mtrx, users_ids, books_id):
     # Books the model predicts they will like based on similar users
     results = pretrain_model.predict(users_ids, np.arange(n_items))
     top_results = np.argsort(-results)[:5]
-    # print(top_results)
+    print(top_results)
 
     print('Book recomendations:')
     for x in top_results.tolist():
