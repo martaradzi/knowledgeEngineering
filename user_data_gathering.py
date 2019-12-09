@@ -75,6 +75,18 @@ def second_questions(path):
     return (user_ratings)
 
 
+def save_user_data(final_data):
+    max_user_id = 0
+    with open('BX-CSV-Dump/BX-Book-Ratings.csv', 'r+', newline='') as f:
+        csvReader = csv.reader(f,delimiter=';')
+        max_revenue_row = max(csvReader, key=lambda row: int(row[0]))
+        max_user_id = int(max_revenue_row[0])
+        max_user_id +=1
+        final_data.insert(loc=0, column="user_id", value=max_user_id)
+        final_data.to_csv(f,index=False, sep=';', header=False)
+        f.close()
+
+
 # setting up classes
 class_matrix = [
                 ['0 - 12', 'primary' ,'class1'],
@@ -112,27 +124,8 @@ if __name__ == '__main__':
 
     # second questionary - rating books
     final_data = second_questions(path_books_to_rate + final_class + '.csv')
-    # x = final_data["book_id"]
-    # y = final_data["user_rating"]
     print (final_data)
-
-max_user_id = 0
-with open('BX-CSV-Dump/BX-Book-Ratings.csv', 'r') as f:
-    csvReader = csv.reader(f,delimiter=';')
-    next(csvReader) 
-    max_revenue_row = max(csvReader, key=lambda row: int(row[0]))
-    max_user_id = int(max_revenue_row[0])
-    max_user_id +=1
-
-with open('BX-CSV-Dump/BX-Book-Ratings.csv', 'a') as f:
-    csvReader = csv.reader(f,delimiter=';')
-    # next(csvReader) 
-    final_data.insert(loc=0, column="user_id", value=max_user_id)
-    final_data.to_csv(f,index=False, sep=';',header=False)
-
-# with open('BX-CSV-Dump/BX-Users.csv', 'a') as f:
-#     csvWriter = csv.writer(f,delimiter=';',quoting=csv.QUOTE_ALL)
-#     csvWriter.writerow([max_user_id, 'Amsterdam',0])
+    save_user_data(final_data)
 
 
 

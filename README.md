@@ -10,7 +10,9 @@ The system works in the following way:
 
 # Running the program
 
-To run this program you need to run Python 3.6.
+To run this program you need to run Python version 3.6 or higher.
+
+We recommend to run the program in virtual environment.
 
 The program works using libraries listed in ```requirements.txt``` file. To run the program correcty run the following code before running the program.
 
