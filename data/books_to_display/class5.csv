@@ -1,21 +1,11 @@
 ,author_name,book_average_rating,book_id,book_title,genre_1,genre_2,num_ratings,num_reviews,pages,publish_date,score
 0,Anne Frank,4.12,1312,The Diary of a Young Girl,Nonfiction,Classics,2332500,24105,304,1947,26030
 1,Elizabeth Gilbert,3.53,27584,The Last American Man,Nonfiction,Autobiography,1321280,51575,334,February 16th 2006,4323
-2,Elie Wiesel,4.31,3747,Night,Nonfiction,Classics,837981,25369,120,1958,21242
-3,Jon Krakauer,3.97,1793,Into the Wild,Nonfiction,Biography,762908,19228,207,1996,4659
-4,Douglas Adams,4.22,162,The Hitchhiker's Guide to the Galaxy,Science Fiction,Fiction,1187415,24633,193,October 12th 1979,9073
-5,Orson Scott Card,4.3,3946,Ender's Game,Science Fiction,Fiction,984497,40614,324,1985,4891
-6,Michael Crichton,4.0,1195,Jurassic Park,Science Fiction,Fiction,717329,10047,480,November 7th 1990,2728
-7,Frank Herbert,4.21,4115,Dune,Science Fiction,Fiction,598915,15723,604,June 1st 1965,271577
-8,Isaac Asimov,4.15,3745,Foundation,Science Fiction,Fiction,348254,7681,244,1951,8691
-9,Paulo Freire,4.26,74521,Pedagogy of the Oppressed,Education,Nonfiction,20458,1108,192,1968,2861
-10,Stephen Hawking,4.15,4871,A Brief History of Time,Science,Nonfiction,228826,6804,212,April 1st 1988,30132
-11,Richard Feynman,4.27,141030,"Surely You're Joking, Mr. Feynman!: Adventures of a Curious Character",Science,Nonfiction,120202,4363,391,1985,4915
-12,Carl Sagan,4.36,36385,Cosmos,Science,Nonfiction,97120,2472,384,1980,470
-13,Charles Darwin,3.98,105545,The Origin of Species,Science,Nonfiction,83935,2036,703,November 24th 1859,15551
-14,Douglas R. Hofstadter,4.3,2967,"Gödel, Escher, Bach: An Eternal Golden Braid",Science,Nonfiction,37283,1586,777,1979,14736
-15,Stephen King,4.34,1322,The Stand,Horror,Fiction,532888,16072,1153,1978,426
-16,Anne Rice,3.99,2526,Interview with the Vampire,Horror,Fantasy,433988,8933,342,April 12th 1976,18245
-17,Thomas Harris,4.17,25557,The Silence of the Lambs,Horror,Fiction,399164,4645,338,1988,31117
-18,Max Brooks,4.01,222934,The Zombie Survival Guide : Complete Protection from the Living Dead,Horror,Fiction,380355,23651,342,2006,90544
-19,Dean Koontz,3.96,6028,Odd Thomas,Horror,Fiction,227910,6865,446,2003,5469
+2,Jon Krakauer,3.97,1793,Into the Wild,Nonfiction,Biography,762908,19228,207,1996,4659
+3,Isaac Asimov,4.15,3745,Foundation,Science Fiction,Fiction,348254,7681,244,1951,8691
+4,Stephen Hawking,4.15,4871,A Brief History of Time,Science,Nonfiction,228826,6804,212,April 1st 1988,30132
+5,Carl Sagan,4.36,36385,Cosmos,Science,Nonfiction,97120,2472,384,1980,470
+6,Stephen King,4.34,1322,The Stand,Horror,Fiction,532888,16072,1153,1978,426
+7,Anne Rice,3.99,2526,Interview with the Vampire,Horror,Fantasy,433988,8933,342,April 12th 1976,18245
+8,Thomas Harris,4.17,25557,The Silence of the Lambs,Horror,Fiction,399164,4645,338,1988,31117
+9,Max Brooks,4.01,222934,The Zombie Survival Guide : Complete Protection from the Living Dead,Horror,Fiction,380355,23651,342,2006,90544

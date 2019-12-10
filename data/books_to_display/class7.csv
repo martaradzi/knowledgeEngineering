@@ -1,20 +1,12 @@
 ,author_name,book_average_rating,book_id,book_title,genre_1,genre_2,num_ratings,num_reviews,pages,publish_date,score
-0,Robert M. Pirsig,3.77,20877,Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values,Philosophy,Fiction,172074,7477,540,1974,7419
-1,Plato,3.92,17957,The Republic,Philosophy,Classics,139917,2820,416,-380,69427
-2,Lao Tzu,4.32,39765,Tao Te Ching,Philosophy,Nonfiction,93080,3877,160,-300,7981
-3,Friedrich Nietzsche,4.06,73137,Thus Spoke Zarathustra,Philosophy,Classics,89989,2706,327,1883,6534
-4,David McCullough,4.05,12608,John Adams,History,Biography,262483,5787,751,May 1st 2001,24068
-5,Jared Diamond,4.02,3784,"Guns, Germs, and Steel: The Fates of Human Societies",History,Nonfiction,224372,9056,425,1997,6192
-6,Howard Zinn,4.08,37536,A People's History of the United States,History,Nonfiction,157748,4864,729,1980,18557
-7,Doris Kearns Goodwin,4.28,23802,Wait Till Next Year : A MEMOIR,History,Nonfiction,128303,6431,916,October 25th 2005,5937
-8,Diana Gabaldon,4.22,4934,Outlander,Historical,Romance,688076,40918,850,June 1st 1991,5391
-9,Ken Follett,4.3,102,The Pillars of the Earth,Historical,Fiction,564581,28541,973,October 1989,53864
-10,Harper Lee,4.27,37,To Kill a Mockingbird,Classics,Fiction,3818591,81069,324,July 11th 1960,77418
-11,F. Scott Fitzgerald,3.91,3909,The Great Gatsby,Classics,Fiction,3202899,57834,180,1925,32216
-12,Jane Austen,4.25,41,Pride and Prejudice,Classics,Fiction,2504334,55312,279,January 28th 1813,2408
-13,George Orwell,4.17,2104,1984,Classics,Fiction,2495963,55492,326,June 8th 1949,7841
-14,J.D. Salinger,3.8,90,The Catcher in the Rye,Classics,Fiction,2376828,50312,277,July 16th 1951,23079
-15,Anne Frank,4.12,1312,The Diary of a Young Girl,Nonfiction,Classics,2332500,24105,304,1947,26030
-16,Elizabeth Gilbert,3.53,27584,The Last American Man,Nonfiction,Autobiography,1321280,51575,334,February 16th 2006,4323
-17,Elie Wiesel,4.31,3747,Night,Nonfiction,Classics,837981,25369,120,1958,21242
-18,Jon Krakauer,3.97,1793,Into the Wild,Nonfiction,Biography,762908,19228,207,1996,4659
+0,Plato,3.92,17957,The Republic,Philosophy,Classics,139917,2820,416,-380,69427
+1,Friedrich Nietzsche,4.06,73137,Thus Spoke Zarathustra,Philosophy,Classics,89989,2706,327,1883,6534
+2,David McCullough,4.05,12608,John Adams,History,Biography,262483,5787,751,May 1st 2001,24068
+3,Jared Diamond,4.02,3784,"Guns, Germs, and Steel: The Fates of Human Societies",History,Nonfiction,224372,9056,425,1997,6192
+4,Diana Gabaldon,4.22,4934,Outlander,Historical,Romance,688076,40918,850,June 1st 1991,5391
+5,Ken Follett,4.3,102,The Pillars of the Earth,Historical,Fiction,564581,28541,973,October 1989,53864
+6,Harper Lee,4.27,37,To Kill a Mockingbird,Classics,Fiction,3818591,81069,324,July 11th 1960,77418
+7,F. Scott Fitzgerald,3.91,3909,The Great Gatsby,Classics,Fiction,3202899,57834,180,1925,32216
+8,Jane Austen,4.25,41,Pride and Prejudice,Classics,Fiction,2504334,55312,279,January 28th 1813,2408
+9,George Orwell,4.17,2104,1984,Classics,Fiction,2495963,55492,326,June 8th 1949,7841
+

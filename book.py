@@ -6,7 +6,7 @@ from lightfm import LightFM
 import pickle
 
 
-def book(min_score=8):
+def book(min_score, max_user_id):
 
     # Data for creating coo_matrix
     # min_score, user_id, book_id
@@ -14,14 +14,9 @@ def book(min_score=8):
 
     # books by id, and users
     books_id, users = {}, {}
-    max_user_id = 0
     max_book_id = 0
     
-    with open('BX-CSV-Dump/BX-Book-Ratings.csv', 'r', encoding='ISO-8859-1') as text:
-        csvReader = csv.reader(text, delimiter=';')
-        max_user_id_row = max(csvReader, key=lambda row: int(row[0]))
-        max_user_id = int(max_user_id_row[0])
-
+    # exptract max book ID
     with open('BX-CSV-Dump/BX-Books.csv', 'r', encoding='ISO-8859-1') as text:
         csvReader = csv.reader(text, delimiter=';')
         max_book_id_row = max(csvReader, key=lambda row: int(row[0]))
@@ -37,11 +32,10 @@ def book(min_score=8):
             if book_id not in books_id:
                 books_id[book_id] = {
     			'name' : book_name,
-    			# 'id' : book_id,
                 'author' : book_author
     			}
 
-    # extract users
+    # extract users 
     with open('BX-CSV-Dump/BX-Users.csv', 'r', encoding='ISO-8859-1') as text:
     	csvReader = csv.reader(text, delimiter=';')
     	for row_of_file in csvReader:
@@ -49,31 +43,32 @@ def book(min_score=8):
     		if user not in users:
 	    		users[user] = user
 
-    #extract ratings
+    #extract ratings of books
     with open('BX-CSV-Dump/BX-Book-Ratings.csv', 'r', encoding='ISO-8859-1') as text:
     	csvReader = csv.reader(text, delimiter=';')
     	for row_of_file in csvReader:
             if row_of_file[1] == "":
                 continue
             if int(row_of_file[2]) >= min_score:
-    			#data = min score
                 data.append(int(row_of_file[2]))
-    			#row = user_id
                 row.append(row_of_file[0])
-    			#col = book_id
                 col.append(row_of_file[1])
 
-    #numpy array to pass it to coo_matrix
+    # numpy array to pass it to coo_matrix
     data = np.array(data)
     row = np.array(row, dtype=np.int32)
     col = np.array(col, dtype=np.int32)
-    #creating the matrix;
-    #this matrix is used to later compare the new user to users that have similar ratings to him/her
+    
+    # creating the matrix;
+    # this matrix is used to later compare the new user 
+    # to users that have similar ratings to him/her
     sm = sparse.coo_matrix((data,(row,col)),shape=(
                 max_user_id + 1, max_book_id + 1))
-    #train the model
+
+    # train the model
     pretrain_model = LightFM(loss="warp").fit(sm, epochs=30, num_threads=2)
-    #save trained model; model is always retrained when a new user is inputed
+    
+    # save trained model; model is always retrained when a new user is inputed
     with open("BX-CSV-Dump/explicit_rec.pkl", "wb") as fid:
         pickle.dump(pretrain_model, fid)
 

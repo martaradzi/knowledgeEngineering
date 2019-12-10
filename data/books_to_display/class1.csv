@@ -1,17 +1,11 @@
 ,author_name,book_average_rating,book_id,book_title,genre_1,genre_2,num_ratings,num_reviews,pages,publish_date,score
 0,Jenny  Phillips,4.3,52261,Hans Andersen's Fairy Tales,Fantasy,54,25,84,,400
 1,J.R.R. Tolkien,4.26,58189,The Hobbit,Fantasy,Classics,2471588,42006,366,September 21st 1937,28145
-2,J.K. Rowling,4.55,85248,Harry Potter and the Prisoner of Azkaban,Fantasy,Young Adult,2275315,44330,435,July 8th 1999,16775
-3,J.K. Rowling,4.48,86393,Harry Potter and the Order of the Phoenix,Fantasy,Young Adult,2087093,34321,870,June 21st 2003,1412
-4,J.K. Rowling,4.56,181540,Harry Potter and the Sorcerer's Stone,Fantasy,Young Adult,2036961,32557,652,July 16th 2005,672
-5,C.S. Lewis,4.21,18695,"The Lion, the Witch and the Wardrobe",Fantasy,Classics,1839095,17934,208,October 16th 1950,4288
-6,Shel Silverstein,4.37,2515,The Giving Tree,Childrens,Childrens,801232,15919,64,1964,598270
-7,Maurice Sendak,4.22,20628,Where the Wild Things Are,Childrens,Childrens,716983,10578,37,April 19th 1963,285130
-8,Roald Dahl,4.3,27972,Matilda,Childrens,Fiction,508838,13336,240,October 1st 1988,6167
-9,Eric Carle,4.29,32123,The Very Hungry Caterpillar,Childrens,Childrens,342836,6809,26,1969,11395
-10,Roald Dahl,4.22,33232,The BFG,Childrens,Fantasy,306728,9021,195,1982,9669
-11,Diane Duane,4.05,164513,Spider-Man: The Octopus Agenda (Marvel Comics),Comics,Fantasy,1602,109,206,2013,1643
-12,Garth Ennis,3.61,50128,Preacher: Alamo (Preacher (DC Comics)),Comics,Science Fiction,961,76,288,July 7th 2003,935
-13,Alan Moore,3.97,101467,Batman: The Killing Joke (Batman (DC Comics Paperback)),Comics,Fantasy,799,78,416,2008,1150
-14,Robert N. Skir,3.25,251143,X-Men: Morlock Madness (Marvel Comics),Comics,Fantasy,760,106,384,January 1st 2008,570
-15,Akira Toriyama,3.96,215463,Dragon Ball (Dragon Ball),Comics,Science Fiction,611,63,370,July 18th 2013,399
+2,J.K. Rowling,4.56,181540,Harry Potter and the Sorcerer's Stone,Fantasy,Young Adult,2036961,32557,652,July 16th 2005,672
+3,C.S. Lewis,4.21,18695,"The Lion, the Witch and the Wardrobe",Fantasy,Classics,1839095,17934,208,October 16th 1950,4288
+4,Shel Silverstein,4.37,2515,The Giving Tree,Childrens,Childrens,801232,15919,64,1964,598270
+5,Maurice Sendak,4.22,20628,Where the Wild Things Are,Childrens,Childrens,716983,10578,37,April 19th 1963,285130
+6,Roald Dahl,4.3,27972,Matilda,Childrens,Fiction,508838,13336,240,October 1st 1988,6167
+7,Eric Carle,4.29,32123,The Very Hungry Caterpillar,Childrens,Childrens,342836,6809,26,1969,11395
+8,Robert N. Skir,3.25,251143,X-Men: Morlock Madness (Marvel Comics),Comics,Fantasy,760,106,384,January 1st 2008,570
+9,Akira Toriyama,3.96,215463,Dragon Ball (Dragon Ball),Comics,Science Fiction,611,63,370,July 18th 2013,399

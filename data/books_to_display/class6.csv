@@ -1,14 +1,11 @@
 ,author_name,book_average_rating,book_id,book_title,genre_1,genre_2,num_ratings,num_reviews,pages,publish_date,score
 0,Nicholas Sparks,3.66,2602,The Notebook,Romance,Fiction,1632186,76818,356,2011,230045
 1,Jojo Moyes,4.26,187767,Sheltering Rain,Romance,Fiction,903515,76616,369,2012,15848
-2,Nicholas Sparks,4.16,5607,A Walk to Remember,Romance,Fiction,591985,12003,215,1999,45393
-3,Nicholas Sparks,4.03,226,The Rescue,Romance,Fiction,495183,11037,276,2006,3745
-4,Stephen King,4.34,1322,The Stand,Horror,Fiction,532888,16072,1153,1978,426
-5,Anne Rice,3.99,2526,Interview with the Vampire,Horror,Fantasy,433988,8933,342,April 12th 1976,18245
-6,Thomas Harris,4.17,25557,The Silence of the Lambs,Horror,Fiction,399164,4645,338,1988,31117
-7,Max Brooks,4.01,222934,The Zombie Survival Guide : Complete Protection from the Living Dead,Horror,Fiction,380355,23651,342,2006,90544
-8,Dean Koontz,3.96,6028,Odd Thomas,Horror,Fiction,227910,6865,446,2003,5469
-9,Anne Frank,4.12,1312,The Diary of a Young Girl,Nonfiction,Classics,2332500,24105,304,1947,26030
-10,Elizabeth Gilbert,3.53,27584,The Last American Man,Nonfiction,Autobiography,1321280,51575,334,February 16th 2006,4323
-11,Elie Wiesel,4.31,3747,Night,Nonfiction,Classics,837981,25369,120,1958,21242
-12,Jon Krakauer,3.97,1793,Into the Wild,Nonfiction,Biography,762908,19228,207,1996,4659
+2,Stephen King,4.34,1322,The Stand,Horror,Fiction,532888,16072,1153,1978,426
+3,Anne Rice,3.99,2526,Interview with the Vampire,Horror,Fantasy,433988,8933,342,April 12th 1976,18245
+4,Thomas Harris,4.17,25557,The Silence of the Lambs,Horror,Fiction,399164,4645,338,1988,31117
+5,Max Brooks,4.01,222934,The Zombie Survival Guide : Complete Protection from the Living Dead,Horror,Fiction,380355,23651,342,2006,90544
+6,Dean Koontz,3.96,6028,Odd Thomas,Horror,Fiction,227910,6865,446,2003,5469
+7,Anne Frank,4.12,1312,The Diary of a Young Girl,Nonfiction,Classics,2332500,24105,304,1947,26030
+8,Elizabeth Gilbert,3.53,27584,The Last American Man,Nonfiction,Autobiography,1321280,51575,334,February 16th 2006,4323
+9,Elie Wiesel,4.31,3747,Night,Nonfiction,Classics,837981,25369,120,1958,21242
