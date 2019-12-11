@@ -38,7 +38,19 @@ def first_question_batch():
     ]
     return prompt(questions)
 
-def user_classification(user_data, class_matrix):
+
+def user_classification(user_data):
+    class_matrix = [
+                ['0 - 12', 'primary' ,'class1'],
+                ['12 - 18', 'primary', 'class2'],
+                ['12 - 18', 'high school', 'class3'],
+                ['18 - 25', 'high school', 'class4'],
+                ['18 - 25', 'university', 'class5'],
+                ['25 - 45', 'high school', 'class6'],
+                ['25 - 45', 'university', 'class7'],
+                ['45+', 'high school', 'class8'],
+                ['45+', 'university', 'class9'],
+                ]
     classified_user_class = ''
     # first classification - check for belonging in a premade user class
     for row in class_matrix:
@@ -105,22 +117,8 @@ def save_user_data(user_rating_data, path_bx):
     return max_user_id
 
 
-
 def user_data_gathering():
-    # initialize variables
-    class_matrix = [
-                ['0 - 12', 'primary' ,'class1'],
-                ['12 - 18', 'primary', 'class2'],
-                ['12 - 18', 'high school', 'class3'],
-                ['18 - 25', 'high school', 'class4'],
-                ['18 - 25', 'university', 'class5'],
-                ['25 - 45', 'high school', 'class6'],
-                ['25 - 45', 'university', 'class7'],
-                ['45+', 'high school', 'class8'],
-                ['45+', 'university', 'class9'],
-                ]
-
-    classified_user_class = user_classification(first_question_batch(), class_matrix)
+    classified_user_class = user_classification(first_question_batch())
     user_rating_data = second_question_batch('./data/books_to_display/' + classified_user_class + '.csv')
     return save_user_data(user_rating_data, './BX-CSV-Dump/BX-Book-Ratings.csv')
 
