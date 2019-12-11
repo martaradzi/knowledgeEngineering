@@ -74,6 +74,6 @@ The following data is used by the system:
 
   
 ## File explanation: 
- - ```.base_classes\user_data_gathering.py``` - contains the first and second classification task
+ - ```.base_classes\user_data_gathering.py``` - contains user questionaries and the first classification task
  - ```.base_classes\book.py``` - creates a matrix used for recommendation
- - ```.\book_recommender.py``` - main executable file, contains assignment task
+ - ```.\book_recommender.py``` - main executable file, contains second classification task and  assignment task
