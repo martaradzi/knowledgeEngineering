@@ -4,7 +4,6 @@ import sys
 import csv
 import pandas as pd
 
-
 def first_question_batch():
     # ask for age and education 
     # RETURNS: DICT

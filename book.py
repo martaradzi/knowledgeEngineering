@@ -60,8 +60,7 @@ def book(min_score, max_user_id):
     col = np.array(col, dtype=np.int32)
     
     # creating the matrix;
-    # this matrix is used to later compare the new user 
-    # to users that have similar ratings to him/her
+    # this matrix is used to later compare the new user to users that have similar ratings to him/her
     sm = sparse.coo_matrix((data,(row,col)),shape=(
                 max_user_id + 1, max_book_id + 1))
 

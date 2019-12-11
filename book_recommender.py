@@ -5,10 +5,8 @@ import pickle
 from lightfm.datasets import fetch_movielens
 from lightfm import LightFM
 import scipy.sparse as sp
-
 from book import book
 from user_data_gathering import user_data_gathering
-
 
 
 def get_recommendations(pretrain_model, coo_mtrx, users_ids, books_id):
