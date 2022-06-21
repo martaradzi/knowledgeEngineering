@@ -3,7 +3,7 @@ chardet==3.0.4
 idna==2.8
 joblib==0.14.0
 lightfm==1.15
-numpy==1.17.4
+numpy==1.22.0
 pandas==0.25.3
 prompt-toolkit==2.0.10
 python-dateutil==2.8.1
